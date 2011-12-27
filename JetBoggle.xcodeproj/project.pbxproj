@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02CCBCDD14AA2A90001B12B6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02CCBCDC14AA2A90001B12B6 /* Cocoa.framework */; };
+		02CCBCE714AA2A90001B12B6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 02CCBCE514AA2A90001B12B6 /* InfoPlist.strings */; };
+		02CCBCE914AA2A90001B12B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02CCBCE814AA2A90001B12B6 /* main.m */; };
+		02CCBCED14AA2A90001B12B6 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 02CCBCEB14AA2A90001B12B6 /* Credits.rtf */; };
+		02CCBCF314AA2A90001B12B6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02CCBCF114AA2A90001B12B6 /* MainMenu.xib */; };
+		02CCBD0D14AA2ABD001B12B6 /* JBApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02CCBCFE14AA2ABD001B12B6 /* JBApplicationDelegate.m */; };
+		02CCBD0E14AA2ABD001B12B6 /* JBBoggleDie.m in Sources */ = {isa = PBXBuildFile; fileRef = 02CCBD0014AA2ABD001B12B6 /* JBBoggleDie.m */; };
+		02CCBD0F14AA2ABD001B12B6 /* JBBoggleTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 02CCBD0214AA2ABD001B12B6 /* JBBoggleTable.m */; };
+		02CCBD1014AA2ABD001B12B6 /* JBBoggleTablePanelDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02CCBD0414AA2ABD001B12B6 /* JBBoggleTablePanelDelegate.m */; };
+		02CCBD1114AA2ABD001B12B6 /* JBComputerPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 02CCBD0614AA2ABD001B12B6 /* JBComputerPlayer.m */; };
+		02CCBD1214AA2ABD001B12B6 /* JBDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 02CCBD0814AA2ABD001B12B6 /* JBDictionary.m */; };
+		02CCBD1314AA2ABD001B12B6 /* JBDictionaryNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 02CCBD0A14AA2ABD001B12B6 /* JBDictionaryNode.m */; };
+		02CCBD1414AA2ABD001B12B6 /* JBFileBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 02CCBD0C14AA2ABD001B12B6 /* JBFileBuffer.m */; };
+		02CCBD1814AA2B99001B12B6 /* ComputerPlayer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02CCBD1614AA2B99001B12B6 /* ComputerPlayer.xib */; };
+		02CCBD1B14AA2BDA001B12B6 /* BoggleTable.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02CCBD1914AA2BDA001B12B6 /* BoggleTable.xib */; };
+		02CCBD1E14AA2C65001B12B6 /* DictionaryEditor.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02CCBD1C14AA2C65001B12B6 /* DictionaryEditor.xib */; };
+		02CCBD2014AA3943001B12B6 /* dictionary.txt in Resources */ = {isa = PBXBuildFile; fileRef = 02CCBD1F14AA3943001B12B6 /* dictionary.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02CCBCD814AA2A90001B12B6 /* JetBoggle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JetBoggle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02CCBCDC14AA2A90001B12B6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		02CCBCDF14AA2A90001B12B6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		02CCBCE014AA2A90001B12B6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		02CCBCE114AA2A90001B12B6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		02CCBCE414AA2A90001B12B6 /* JetBoggle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JetBoggle-Info.plist"; sourceTree = "<group>"; };
+		02CCBCE614AA2A90001B12B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		02CCBCE814AA2A90001B12B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		02CCBCEC14AA2A90001B12B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		02CCBCF214AA2A90001B12B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		02CCBCFD14AA2ABD001B12B6 /* JBApplicationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBApplicationDelegate.h; sourceTree = "<group>"; };
+		02CCBCFE14AA2ABD001B12B6 /* JBApplicationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBApplicationDelegate.m; sourceTree = "<group>"; };
+		02CCBCFF14AA2ABD001B12B6 /* JBBoggleDie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBBoggleDie.h; sourceTree = "<group>"; };
+		02CCBD0014AA2ABD001B12B6 /* JBBoggleDie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBBoggleDie.m; sourceTree = "<group>"; };
+		02CCBD0114AA2ABD001B12B6 /* JBBoggleTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBBoggleTable.h; sourceTree = "<group>"; };
+		02CCBD0214AA2ABD001B12B6 /* JBBoggleTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBBoggleTable.m; sourceTree = "<group>"; };
+		02CCBD0314AA2ABD001B12B6 /* JBBoggleTablePanelDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBBoggleTablePanelDelegate.h; sourceTree = "<group>"; };
+		02CCBD0414AA2ABD001B12B6 /* JBBoggleTablePanelDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBBoggleTablePanelDelegate.m; sourceTree = "<group>"; };
+		02CCBD0514AA2ABD001B12B6 /* JBComputerPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBComputerPlayer.h; sourceTree = "<group>"; };
+		02CCBD0614AA2ABD001B12B6 /* JBComputerPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBComputerPlayer.m; sourceTree = "<group>"; };
+		02CCBD0714AA2ABD001B12B6 /* JBDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBDictionary.h; sourceTree = "<group>"; };
+		02CCBD0814AA2ABD001B12B6 /* JBDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBDictionary.m; sourceTree = "<group>"; };
+		02CCBD0914AA2ABD001B12B6 /* JBDictionaryNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBDictionaryNode.h; sourceTree = "<group>"; };
+		02CCBD0A14AA2ABD001B12B6 /* JBDictionaryNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBDictionaryNode.m; sourceTree = "<group>"; };
+		02CCBD0B14AA2ABD001B12B6 /* JBFileBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBFileBuffer.h; sourceTree = "<group>"; };
+		02CCBD0C14AA2ABD001B12B6 /* JBFileBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBFileBuffer.m; sourceTree = "<group>"; };
+		02CCBD1714AA2B99001B12B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = JetBoggle/en.lproj/ComputerPlayer.xib; sourceTree = "<group>"; };
+		02CCBD1A14AA2BDA001B12B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = JetBoggle/en.lproj/BoggleTable.xib; sourceTree = "<group>"; };
+		02CCBD1D14AA2C65001B12B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = JetBoggle/en.lproj/DictionaryEditor.xib; sourceTree = "<group>"; };
+		02CCBD1F14AA3943001B12B6 /* dictionary.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dictionary.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02CCBCD514AA2A90001B12B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02CCBCDD14AA2A90001B12B6 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02CCBCCD14AA2A8F001B12B6 = {
+			isa = PBXGroup;
+			children = (
+				02CCBCE214AA2A90001B12B6 /* JetBoggle */,
+				02CCBCDB14AA2A90001B12B6 /* Frameworks */,
+				02CCBCD914AA2A90001B12B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02CCBCD914AA2A90001B12B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02CCBCD814AA2A90001B12B6 /* JetBoggle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02CCBCDB14AA2A90001B12B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02CCBCDC14AA2A90001B12B6 /* Cocoa.framework */,
+				02CCBCDE14AA2A90001B12B6 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		02CCBCDE14AA2A90001B12B6 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02CCBCDF14AA2A90001B12B6 /* AppKit.framework */,
+				02CCBCE014AA2A90001B12B6 /* CoreData.framework */,
+				02CCBCE114AA2A90001B12B6 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		02CCBCE214AA2A90001B12B6 /* JetBoggle */ = {
+			isa = PBXGroup;
+			children = (
+				02CCBCFD14AA2ABD001B12B6 /* JBApplicationDelegate.h */,
+				02CCBCFE14AA2ABD001B12B6 /* JBApplicationDelegate.m */,
+				02CCBCFF14AA2ABD001B12B6 /* JBBoggleDie.h */,
+				02CCBD0014AA2ABD001B12B6 /* JBBoggleDie.m */,
+				02CCBD0114AA2ABD001B12B6 /* JBBoggleTable.h */,
+				02CCBD0214AA2ABD001B12B6 /* JBBoggleTable.m */,
+				02CCBD0314AA2ABD001B12B6 /* JBBoggleTablePanelDelegate.h */,
+				02CCBD0414AA2ABD001B12B6 /* JBBoggleTablePanelDelegate.m */,
+				02CCBD0514AA2ABD001B12B6 /* JBComputerPlayer.h */,
+				02CCBD0614AA2ABD001B12B6 /* JBComputerPlayer.m */,
+				02CCBD0714AA2ABD001B12B6 /* JBDictionary.h */,
+				02CCBD0814AA2ABD001B12B6 /* JBDictionary.m */,
+				02CCBD0914AA2ABD001B12B6 /* JBDictionaryNode.h */,
+				02CCBD0A14AA2ABD001B12B6 /* JBDictionaryNode.m */,
+				02CCBD0B14AA2ABD001B12B6 /* JBFileBuffer.h */,
+				02CCBD0C14AA2ABD001B12B6 /* JBFileBuffer.m */,
+				02CCBCE314AA2A90001B12B6 /* Supporting Files */,
+			);
+			path = JetBoggle;
+			sourceTree = "<group>";
+		};
+		02CCBCE314AA2A90001B12B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02CCBCF114AA2A90001B12B6 /* MainMenu.xib */,
+				02CCBD1614AA2B99001B12B6 /* ComputerPlayer.xib */,
+				02CCBD1914AA2BDA001B12B6 /* BoggleTable.xib */,
+				02CCBD1C14AA2C65001B12B6 /* DictionaryEditor.xib */,
+				02CCBD1F14AA3943001B12B6 /* dictionary.txt */,
+				02CCBCE414AA2A90001B12B6 /* JetBoggle-Info.plist */,
+				02CCBCE514AA2A90001B12B6 /* InfoPlist.strings */,
+				02CCBCE814AA2A90001B12B6 /* main.m */,
+				02CCBCEB14AA2A90001B12B6 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02CCBCD714AA2A90001B12B6 /* JetBoggle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02CCBCF614AA2A90001B12B6 /* Build configuration list for PBXNativeTarget "JetBoggle" */;
+			buildPhases = (
+				02CCBCD414AA2A90001B12B6 /* Sources */,
+				02CCBCD514AA2A90001B12B6 /* Frameworks */,
+				02CCBCD614AA2A90001B12B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JetBoggle;
+			productName = JetBoggle;
+			productReference = 02CCBCD814AA2A90001B12B6 /* JetBoggle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02CCBCCF14AA2A8F001B12B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Fotonauts;
+			};
+			buildConfigurationList = 02CCBCD214AA2A8F001B12B6 /* Build configuration list for PBXProject "JetBoggle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 02CCBCCD14AA2A8F001B12B6;
+			productRefGroup = 02CCBCD914AA2A90001B12B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02CCBCD714AA2A90001B12B6 /* JetBoggle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02CCBCD614AA2A90001B12B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02CCBCE714AA2A90001B12B6 /* InfoPlist.strings in Resources */,
+				02CCBCED14AA2A90001B12B6 /* Credits.rtf in Resources */,
+				02CCBCF314AA2A90001B12B6 /* MainMenu.xib in Resources */,
+				02CCBD1814AA2B99001B12B6 /* ComputerPlayer.xib in Resources */,
+				02CCBD1B14AA2BDA001B12B6 /* BoggleTable.xib in Resources */,
+				02CCBD1E14AA2C65001B12B6 /* DictionaryEditor.xib in Resources */,
+				02CCBD2014AA3943001B12B6 /* dictionary.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02CCBCD414AA2A90001B12B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02CCBCE914AA2A90001B12B6 /* main.m in Sources */,
+				02CCBD0D14AA2ABD001B12B6 /* JBApplicationDelegate.m in Sources */,
+				02CCBD0E14AA2ABD001B12B6 /* JBBoggleDie.m in Sources */,
+				02CCBD0F14AA2ABD001B12B6 /* JBBoggleTable.m in Sources */,
+				02CCBD1014AA2ABD001B12B6 /* JBBoggleTablePanelDelegate.m in Sources */,
+				02CCBD1114AA2ABD001B12B6 /* JBComputerPlayer.m in Sources */,
+				02CCBD1214AA2ABD001B12B6 /* JBDictionary.m in Sources */,
+				02CCBD1314AA2ABD001B12B6 /* JBDictionaryNode.m in Sources */,
+				02CCBD1414AA2ABD001B12B6 /* JBFileBuffer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		02CCBCE514AA2A90001B12B6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02CCBCE614AA2A90001B12B6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		02CCBCEB14AA2A90001B12B6 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02CCBCEC14AA2A90001B12B6 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		02CCBCF114AA2A90001B12B6 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02CCBCF214AA2A90001B12B6 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		02CCBD1614AA2B99001B12B6 /* ComputerPlayer.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02CCBD1714AA2B99001B12B6 /* en */,
+			);
+			name = ComputerPlayer.xib;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		02CCBD1914AA2BDA001B12B6 /* BoggleTable.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02CCBD1A14AA2BDA001B12B6 /* en */,
+			);
+			name = BoggleTable.xib;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		02CCBD1C14AA2C65001B12B6 /* DictionaryEditor.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02CCBD1D14AA2C65001B12B6 /* en */,
+			);
+			name = DictionaryEditor.xib;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02CCBCF414AA2A90001B12B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		02CCBCF514AA2A90001B12B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		02CCBCF714AA2A90001B12B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "JetBoggle/JetBoggle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		02CCBCF814AA2A90001B12B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "JetBoggle/JetBoggle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02CCBCD214AA2A8F001B12B6 /* Build configuration list for PBXProject "JetBoggle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02CCBCF414AA2A90001B12B6 /* Debug */,
+				02CCBCF514AA2A90001B12B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02CCBCF614AA2A90001B12B6 /* Build configuration list for PBXNativeTarget "JetBoggle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02CCBCF714AA2A90001B12B6 /* Debug */,
+				02CCBCF814AA2A90001B12B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02CCBCCF14AA2A8F001B12B6 /* Project object */;
+}
